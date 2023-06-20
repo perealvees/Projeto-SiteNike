@@ -1,0 +1,100 @@
+* {
+    padding:0;
+    margin: 0;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    background-color: rgb(240, 240, 240);
+    height: 50px;
+    width: 100%;
+    box-shadow: 0px 1px 15px rgba(255, 255, 255, 0.719);
+    display: flex;
+    justify-content: space-between;
+    padding: 2px; /*pra não colar as letras na borda*/
+}
+
+header img{
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+}
+
+.menu{
+    
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    padding: 2px;
+    
+}
+
+.menu li a {
+    text-decoration: none;
+    display: block;
+    margin-left: 10px;
+    color: rgb(138, 130, 130);
+}
+.menu li a:hover {
+   font-weight: bold;
+   color: #6e6b6b;
+   border-radius: 4px;
+   padding: 3px;
+}
+
+h1{
+    color:rgb(235, 230, 230);
+    text-align: center;
+    padding: 20px;
+}
+
+
+.container{
+    background-color: rgba(49, 46, 46, 0.377);
+    display: flex;
+    margin: 0 auto;
+    max-width: 1200%;
+    text-justify: auto;
+    flex-wrap: wrap;
+    padding: 20px;  
+    height: 410px;
+       
+}
+
+.container > div {
+    flex: 1 1 100px;
+}
+
+img {
+    width: 250px;
+    height: 280px;
+    border-radius: 40px;
+    padding: 20px;
+}
+
+div a {
+    text-align: center;
+}
+
+div{
+    color: aliceblue;
+    text-align: center;
+}
+
+footer{
+    color:rgb(235, 230, 230);
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgba(43, 141, 180, 0.877);
+}
