@@ -2,6 +2,7 @@
     padding:0;
     margin: 0;
     font-family: 'Trebuchet MS', sans-serif;
+    text-align: center;
 }
 
 body{
@@ -24,14 +25,12 @@ header img{
     padding: 5px;
 }
 
-.menu{
-    
+.menu{ 
     list-style: none;
     display: flex;
     align-items: center;
     margin-right: 20px;
     padding: 2px;
-    
 }
 
 .menu li a {
@@ -55,43 +54,35 @@ h1{
 
 
 .container{
-    background-color: rgba(49, 46, 46, 0.377);
-    display: flex;
+    background-color: rgba(26, 25, 25, 0.884);
     margin: 0 auto;
     max-width: 1200%;
-    text-justify: auto;
-    flex-wrap: wrap;
     padding: 20px;  
     height: 410px;
-       
+    position: relative;
+    display: flex;
+    justify-content: center;
 }
 
-.container > div {
-    flex: 1 1 100px;
+p{
+    position: absolute;
+    color: rgb(235, 233, 232);
+    text-align: center;
 }
 
-img {
+.container > img {
     width: 250px;
     height: 280px;
     border-radius: 40px;
     padding: 20px;
 }
 
-div a {
-    text-align: center;
-}
-
-div{
-    color: aliceblue;
-    text-align: center;
-}
 
 footer{
     color:rgb(235, 230, 230);
     font-size: 12px;
     text-align: center;
     text-decoration: none;
-    padding: 10px;
 }
 
 footer a {
