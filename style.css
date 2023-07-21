@@ -3,12 +3,10 @@
     margin: 0;
     font-family: 'Trebuchet MS', sans-serif;
     text-align: center;
-    disply
 }
 
 body{
-    background-color: black;
-    display: 
+    background-color: rgb(0, 0, 0);
 }
 
 header{
@@ -22,7 +20,6 @@ header{
 }
 
 header img{
-    display: flex;
     height: 50px;
     width: 50px;
     padding: 2px;
@@ -62,9 +59,9 @@ h1{
 
 .container{
     color: rgb(235, 230, 230);
-    max-width: 1200vh;
+    max-width: 100%;
     padding: 20px;  
-    height: 410px;
+    height: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -84,22 +81,20 @@ h1{
 .imagem:hover{
     opacity: 0.9;
     background-color: rgb(255, 255, 255);
-}
+}    
 
-@media (min-widht:380) and (max-widht: 800px) {
-    .container {
-        width: 50px;
-        height: 60px;
+
+@media (max-widht: 320px){
+    .imagem{
+        width: 100%;
     }
 }
-    
 
 footer{
-    background-color: #1b1b1b;
-    color:rgb(235, 230, 230);
+    color: aliceblue;
+    background-color: #6e6b6b9c;
 }
 
-footer a {
-    text-decoration: none;
-    color: rgba(118, 121, 122, 0.877);
+footer p{
+    color: rgb(230, 230, 230); 
 }
