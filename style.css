@@ -3,26 +3,29 @@
     margin: 0;
     font-family: 'Trebuchet MS', sans-serif;
     text-align: center;
+    disply
 }
 
 body{
     background-color: black;
+    display: 
 }
 
 header{
     background-color: rgb(240, 240, 240);
     height: 50px;
     width: 100%;
-    box-shadow: 0px 1px 15px rgba(255, 255, 255, 0.685);
+    box-shadow: 0px 1px 15px rgba(255, 255, 255, 0.541);
     display: flex;
     justify-content: space-between;
     padding: 2px; /*pra não colar as letras na borda*/
 }
 
 header img{
+    display: flex;
     height: 50px;
     width: 50px;
-    padding: 5px;
+    padding: 2px;
 }
 
 .menu{ 
@@ -35,51 +38,68 @@ header img{
 
 .menu li a {
     text-decoration: none;
-    display: block;
-    margin-left: 10px;
-    color: rgb(138, 130, 130);
+    display: flex;
+    color: #1b1b1b;
 }
 .menu li a:hover {
    font-weight: bold;
    color: #6e6b6b;
-   border-radius: 4px;
-   padding: 3px;
+}
+
+.container a {
+    text-decoration: none;
+    color: aliceblue;    
 }
 
 h1{
-    color:rgb(235, 230, 230);
+    background-color: #1b1b1be1;
+    color:rgb(255, 255, 255);
     text-align: center;
     padding: 20px;
+    width: auto;
+    height: 25px;
 }
 
-
 .container{
-    background-color: rgba(26, 25, 25, 0.884);
-    color: aliceblue;
-    margin: 0 auto;
-    max-width: 1200%;
+    color: rgb(235, 230, 230);
+    max-width: 1200vh;
     padding: 20px;  
     height: 410px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .imagem{
+    display: flex;
     width: 300px;
     height: 320px;
     border-radius: 12px;
+    padding: 20px;
+    border-radius: 35px;
+    
 }
 
+.imagem:hover{
+    opacity: 0.9;
+    background-color: rgb(255, 255, 255);
+}
+
+@media (min-widht:380) and (max-widht: 800px) {
+    .container {
+        width: 50px;
+        height: 60px;
+    }
+}
+    
+
 footer{
+    background-color: #1b1b1b;
     color:rgb(235, 230, 230);
-    font-size: 12px;
-    text-align: center;
-    text-decoration: none;
 }
 
 footer a {
     text-decoration: none;
-    color: rgba(43, 141, 180, 0.877);
+    color: rgba(118, 121, 122, 0.877);
 }
